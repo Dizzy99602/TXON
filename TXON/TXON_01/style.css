@@ -1,0 +1,280 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+}
+
+nav a {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+nav div {
+	display: flex;
+}
+
+nav div a {
+	margin-right: 20px;
+}
+
+/* Hero Section Styles */
+
+#hero {
+	background-image: url('https://source.unsplash.com/1200x600/?city');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	align-items: center;
+}
+
+#hero .container {
+	text-align: center;
+}
+
+#hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#hero p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+	background-color: #3e8e41;
+}
+
+/* Services Section Styles */
+
+#services {
+	background-color: #f2f2f2;
+	padding: 80px 0;
+}
+
+#services h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.service {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.service i {
+	font-size: 3rem;
+	color: #4CAF50;
+	margin-right: 20px;
+}
+
+.service h3 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.service p {
+	font-size: 1.1rem;
+}
+
+/* About Section Styles */
+
+#about {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 40
+}
+
+.about-box {
+	display: flex;
+}
+
+.about-box img {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.about-box div {
+	flex: 2;
+}
+
+.about-box h3 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.about-box p {
+	font-size: 1.1rem;
+}
+
+/* Team Section Styles */
+
+#team {
+	padding: 80px 0;
+}
+
+#team h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.member {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.member img {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.member div {
+	flex: 2;
+}
+
+.member h3 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.member p {
+	font-size: 1.1rem;
+}
+
+/* Contact Section Styles */
+
+#contact {
+	background-color: #f2f2f2;
+	padding: 80px 0;
+}
+
+#contact h2 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-form form {
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-form label {
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.contact-form textarea {
+	height: 150px;
+	resize: none;
+}
+
+.contact-form input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px 0;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+footer a {
+	margin-right: 10px;
+}
